@@ -1,0 +1,48 @@
+p {
+    font-size: 20px;
+    margin : 10% 5%;
+    line-height: 1.5;
+    width: 30%;
+}
+
+.salut{
+    width: 70%;
+}
+nav img{
+    width: auto!important;
+}
+img {
+    width: 100%;
+    height: auto;
+    transition: all 1s ease;
+}
+
+img:hover{
+    transform : rotate(360deg);
+}
+
+
+.coucou {
+    display : flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+.logo:hover {
+   fill: peachpuff;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .coucou {
+        display : initial;
+
+    }
+    .salut{
+        width: 100%;
+    }
+    p {
+        width: 100%;
+    }
+}
