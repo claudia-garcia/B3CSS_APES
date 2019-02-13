@@ -46,3 +46,44 @@ img:hover{
         width: 100%;
     }
 }
+.mouvmentContainer{
+width: 100%;
+}
+.element {
+    height: 200px;
+    width: 200px;
+    background-color: floralwhite;
+    animation: 
+      pulse 3s ease infinite alternate, 
+      nudge 5s linear infinite alternate;
+    border-radius: 100%;
+    
+  }
+  .element p {
+      width: auto;
+  }
+  @keyframes pulse {
+    0%, 100% {
+      background-color: rgb(255, 250, 190);
+    }
+    50% {
+      background-color:rgb(224, 240, 255);
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(100%, 0);
+    }
+    
+    80% {
+      transform: translate(30%, 0);
+    }
+
+    
+  }
+  
